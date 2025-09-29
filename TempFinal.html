@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Awareness</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #0f172a, #1e3a8a);
+      color: #f9fafb;
+      line-height: 1.6;
+    }
+
+    /* Header with Banner Image */
+    header {
+      background: url("https://img.freepik.com/free-vector/cyber-security-banner-with-lock-digital-shield_1017-33684.jpg") no-repeat center center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      background: rgba(0,0,0,0.6);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 12px;
+      color: #facc15;
+      background: rgba(0,0,0,0.5);
+      display: inline-block;
+      padding: 6px 15px;
+      border-radius: 8px;
+    }
+
+    nav {
+      background: rgba(37, 99, 235, 0.9);
+      padding: 12px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #facc15;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #facc15;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      backdrop-filter: blur(8px);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 30px rgba(0,0,0,0.5);
+    }
+
+    ul {
+      text-align: left;
+      display: inline-block;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+
+    /* Different icons for lists */
+    .tips li::before { content: "💡 "; }
+    .dos li::before { content: "✅ "; }
+    .donts li::before { content: "❌ "; }
+    .resources li::before { content: "🔗 "; }
+
+    footer {
+      background: rgba(30, 58, 138, 0.95);
+      color: #f9fafb;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.95rem;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #facc15;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .btn-report {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #facc15;
+      color: #1e3a8a;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-report:hover {
+      background: #ffdd33;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Cybersecurity Awareness</h1>
+    <br>
+    <p>Stay safe in the digital world 🌐🔒</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#tips">Tips</a>
+    <a href="#dosdonts">Do’s & Don’ts</a>
+    <a href="#resources">Resources</a>
+  </nav>
+
+  <!-- Cybersecurity Tips -->
+  <section id="tips">
+    <h2>Top Cybersecurity Tips</h2>
+    <div class="card">
+      <ul class="tips">
+        <li>Use strong & unique passwords.</li>
+        <li>Enable two-factor authentication (2FA).</li>
+        <li>Be cautious of phishing emails & fake links.</li>
+        <li>Keep your software and apps updated.</li>
+        <li>Avoid public Wi-Fi for sensitive work.</li>
+        <li>Regularly check privacy settings on social media.</li>
+        <li>Log out of accounts on shared devices.</li>
+        <li>Encrypt important files and backups.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Do’s and Don’ts -->
+  <section id="dosdonts">
+    <h2>Do’s & Don’ts</h2>
+    <div class="card">
+      <h3>✅ Do’s</h3>
+      <ul class="dos">
+        <li>Backup your data regularly.</li>
+        <li>Install antivirus & firewall protection.</li>
+        <li>Report suspicious activities immediately.</li>
+        <li>Educate family & friends about cyber safety.</li>
+      </ul>
+      <h3>❌ Don’ts</h3>
+      <ul class="donts">
+        <li>Don’t click on unknown or suspicious links.</li>
+        <li>Don’t share personal info on unsafe websites.</li>
+        <li>Don’t reuse the same password everywhere.</li>
+        <li>Don’t ignore software update reminders.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section id="resources">
+    <h2>Helpful Resources (India)</h2>
+    <div class="card">
+      <p>Learn more and report incidents using trusted Indian resources:</p>
+      <ul class="resources">
+        <li><a href="https://www.cert-in.org.in/" target="_blank">CERT-In (Indian Computer Emergency Response Team)</a></li>
+        <li><a href="https://cybercrime.gov.in/" target="_blank">National Cybercrime Reporting Portal</a></li>
+        <li><a href="https://www.mygov.in/cyber-safety/" target="_blank">MyGov Cyber Safety</a></li>
+        <li><a href="https://www.digitalindia.gov.in/" target="_blank">Digital India – Cybersecurity Initiatives</a></li>
+        <li><a href="https://cybersecurity.delhi.gov.in/" target="_blank">Delhi Govt Cybersecurity Awareness</a></li>
+      </ul>
+      <a href="https://cybercrime.gov.in/" target="_blank" class="btn-report">🚨 Report a Cybercrime</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Cybersecurity Awareness Project | Shri G.P.M. Degree College |
+      <a href="#top">Back to Top</a>
+    </p>
+  </footer>
+
+</body>
+</html>
