@@ -36,7 +36,6 @@ Technologies Used
 
 * HTML
 * CSS
-* JavaScript
 
 My Contribution
 
