@@ -4,11 +4,13 @@ This is a simple Cybersecurity Awareness Website that I created as my part of ou
 
 The main purpose of this webpage is to spread awareness about basic cybersecurity practices and help users understand how they can stay safe while using the internet.
 
+
 Live Website
 
 You can view the live version of the project here:
 
 [https://t-devendra.github.io/field-project--college/](https://t-devendra.github.io/field-project--college/)
+
 
 About the Project
 
@@ -17,6 +19,7 @@ Nowadays, we use the internet for many everyday activities such as communication
 Through this webpage, I tried to provide useful cybersecurity information in a simple and easy-to-understand way.
 
 The webpage covers basic cybersecurity tips, online safety practices, Do's and Don'ts, and useful cybersecurity resources available for users in India.
+
 
 Features
 
@@ -36,10 +39,12 @@ Technologies Used
 
 * HTML
 * CSS
+* 
 
 My Contribution
 
 This webpage was my individual contribution to our Second Semester Field Project.
+
 
 I worked on:
 
@@ -83,8 +88,10 @@ Future Improvements
 * Add more cybersecurity tips and resources
 * Improve accessibility
 * Add interactive examples of phishing emails and suspicious links
+  
 
 Project Information
+
 
 Project: Cybersecurity Awareness Website
 
@@ -95,6 +102,7 @@ Course: B.Sc. Computer Science
 University: University of Mumbai
 
 Author
+
 Tanuja Devendra 
 
 B.Sc. Computer Science Student
